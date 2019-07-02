@@ -1,8 +1,8 @@
 
 
-.header{
+.subdiv1{
     
-        background-image: url(../images/harris.jpg);
+        
         background-size: cover;
         background-position: center;
         border-radius: 100px 100px 100px;
@@ -12,7 +12,7 @@
         padding: 30px;
         box-shadow: 5px 5px 7px;
 }
-.subdiv{ height: 200px;
+.subdiv2{ height: 200px;
 float: left;
 width: 20%;
 background-color: maroon;
@@ -24,21 +24,9 @@ font-weight: bold;
 text-align: center;
 padding:100px;}
 
-
-.leftside{background-color:rgba(255, 255, 255);
-height: 400px;
-float:left;
-width:20%}
-
-.content{background-color: lightseagreen;
-    height: 400pxpx;
-    float:left;
-    width: 80%;
+.fullcontent{
+    background-color: aqua;
+    background-image:url(../images/harris.jpg);
+    height
 }
 
-.footer{
-    background-color: lime;
-    height: 200;
-    float:left;
-    width: 50%;
-}
