@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+
+}
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    line-height: 50px;
+    background-color: black;
+}
+header *{
+    display: inline;
+    
+}
+header ul{
+    padding: 0;
+
+}
+header li{ margin-left:20px;
+
+}
+header a{
+    text-decoration: none;
+    color:brown;
+}
+section{height: 100vh;
+border: 1px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.profile-img{
+
+    width: 120px;
+    /* border-radius: 50%; */
+
+}
+
+.profile-img1{
+    width: 150px;
+   
+     border-radius: 50%; 
+
+}
+
+#home h1{ font-size: 3em;}
+
+section ul li{
+text-align: left;
+
+}
+section h2{
+    font-size: 2.5em;
+}
+
+section h3{
+    font-size: 1.5em
+}
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: brown;
+}
+#home{background-image: linear-gradient(rgba(255,255,255,0.75),rgba(156,192,213,0.5)), url(../imgs/img1.jpg)
+}
+#about{background-image: linear-gradient(rgba(255,255,255,0.75),rgba(156,192,213,0.5)), url(../imgs/img2.jpg)
+
+
+}
+#contact{
+    background-image: linear-gradient(rgba(255,255,255,0.75), rgba(156,192,213,0.5)), url(../imgs/img3.jpg) ;    
+
+}
